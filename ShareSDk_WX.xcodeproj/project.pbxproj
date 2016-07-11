@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2F45D241D123B3A004848F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D231D123B3A004848F6 /* main.m */; };
+		F2F45D271D123B3A004848F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D261D123B3A004848F6 /* AppDelegate.m */; };
+		F2F45D2A1D123B3A004848F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F45D291D123B3A004848F6 /* ViewController.m */; };
+		F2F45D2D1D123B3A004848F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D2B1D123B3A004848F6 /* Main.storyboard */; };
+		F2F45D2F1D123B3A004848F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D2E1D123B3A004848F6 /* Assets.xcassets */; };
+		F2F45D321D123B3A004848F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D301D123B3A004848F6 /* LaunchScreen.storyboard */; };
+		F2F45D551D123C84004848F6 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D541D123C84004848F6 /* libicucore.tbd */; };
+		F2F45D571D123C90004848F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D561D123C90004848F6 /* libz.tbd */; };
+		F2F45D591D123C9C004848F6 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D581D123C9C004848F6 /* libstdc++.tbd */; };
+		F2F45D5B1D123CA4004848F6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D5A1D123CA4004848F6 /* JavaScriptCore.framework */; };
+		F2F45D5D1D123CB1004848F6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D5C1D123CB1004848F6 /* libsqlite3.tbd */; };
+		F2F45D9C1D127A53004848F6 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D7A1D127A53004848F6 /* ShareSDK.framework */; };
+		F2F45D9D1D127A53004848F6 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D7D1D127A53004848F6 /* ShareSDKExtension.framework */; };
+		F2F45D9E1D127A53004848F6 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D7E1D127A53004848F6 /* ShareSDKUI.bundle */; };
+		F2F45D9F1D127A53004848F6 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D7F1D127A53004848F6 /* ShareSDKUI.framework */; };
+		F2F45DA41D127A53004848F6 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D931D127A53004848F6 /* libWeChatSDK.a */; };
+		F2F45DA51D127A53004848F6 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D941D127A53004848F6 /* README.txt */; };
+		F2F45DA61D127A53004848F6 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D991D127A53004848F6 /* MOBFoundation.framework */; };
+		F2F45DA71D127A53004848F6 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2F45D9A1D127A53004848F6 /* ShareSDK.bundle */; };
+		F2F45DA81D127A53004848F6 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F45D9B1D127A53004848F6 /* ShareSDKConnector.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2F45D1F1D123B3A004848F6 /* ShareSDk_WX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSDk_WX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F45D231D123B3A004848F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2F45D251D123B3A004848F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2F45D261D123B3A004848F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2F45D281D123B3A004848F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2F45D291D123B3A004848F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2F45D2C1D123B3A004848F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2F45D2E1D123B3A004848F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F45D311D123B3A004848F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2F45D331D123B3A004848F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F45D541D123C84004848F6 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		F2F45D561D123C90004848F6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F2F45D581D123C9C004848F6 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F2F45D5A1D123CA4004848F6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2F45D5C1D123CB1004848F6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F2F45D7A1D127A53004848F6 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		F2F45D7D1D127A53004848F6 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		F2F45D7E1D127A53004848F6 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		F2F45D7F1D127A53004848F6 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		F2F45D931D127A53004848F6 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		F2F45D941D127A53004848F6 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F2F45D951D127A53004848F6 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		F2F45D961D127A53004848F6 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F2F45D971D127A53004848F6 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F2F45D991D127A53004848F6 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		F2F45D9A1D127A53004848F6 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		F2F45D9B1D127A53004848F6 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F45D1C1D123B3A004848F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F45DA61D127A53004848F6 /* MOBFoundation.framework in Frameworks */,
+				F2F45D5D1D123CB1004848F6 /* libsqlite3.tbd in Frameworks */,
+				F2F45D5B1D123CA4004848F6 /* JavaScriptCore.framework in Frameworks */,
+				F2F45D591D123C9C004848F6 /* libstdc++.tbd in Frameworks */,
+				F2F45D9F1D127A53004848F6 /* ShareSDKUI.framework in Frameworks */,
+				F2F45DA41D127A53004848F6 /* libWeChatSDK.a in Frameworks */,
+				F2F45D9C1D127A53004848F6 /* ShareSDK.framework in Frameworks */,
+				F2F45D9D1D127A53004848F6 /* ShareSDKExtension.framework in Frameworks */,
+				F2F45D571D123C90004848F6 /* libz.tbd in Frameworks */,
+				F2F45D551D123C84004848F6 /* libicucore.tbd in Frameworks */,
+				F2F45DA81D127A53004848F6 /* ShareSDKConnector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2F45D161D123B3A004848F6 = {
+			isa = PBXGroup;
+			children = (
+				F2F45D791D127A53004848F6 /* ShareSDK */,
+				F2F45D211D123B3A004848F6 /* ShareSDk_WX */,
+				F2F45D201D123B3A004848F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F45D201D123B3A004848F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D1F1D123B3A004848F6 /* ShareSDk_WX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F45D211D123B3A004848F6 /* ShareSDk_WX */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D251D123B3A004848F6 /* AppDelegate.h */,
+				F2F45D261D123B3A004848F6 /* AppDelegate.m */,
+				F2F45D281D123B3A004848F6 /* ViewController.h */,
+				F2F45D291D123B3A004848F6 /* ViewController.m */,
+				F2F45D2B1D123B3A004848F6 /* Main.storyboard */,
+				F2F45D2E1D123B3A004848F6 /* Assets.xcassets */,
+				F2F45D301D123B3A004848F6 /* LaunchScreen.storyboard */,
+				F2F45D331D123B3A004848F6 /* Info.plist */,
+				F2F45D221D123B3A004848F6 /* Supporting Files */,
+			);
+			path = ShareSDk_WX;
+			sourceTree = "<group>";
+		};
+		F2F45D221D123B3A004848F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D231D123B3A004848F6 /* main.m */,
+				F2F45D5C1D123CB1004848F6 /* libsqlite3.tbd */,
+				F2F45D581D123C9C004848F6 /* libstdc++.tbd */,
+				F2F45D561D123C90004848F6 /* libz.tbd */,
+				F2F45D541D123C84004848F6 /* libicucore.tbd */,
+				F2F45D5A1D123CA4004848F6 /* JavaScriptCore.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2F45D791D127A53004848F6 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D7A1D127A53004848F6 /* ShareSDK.framework */,
+				F2F45D7B1D127A53004848F6 /* Support */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		F2F45D7B1D127A53004848F6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D7C1D127A53004848F6 /* Optional */,
+				F2F45D801D127A53004848F6 /* PlatformSDK */,
+				F2F45D981D127A53004848F6 /* Required */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F2F45D7C1D127A53004848F6 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D7D1D127A53004848F6 /* ShareSDKExtension.framework */,
+				F2F45D7E1D127A53004848F6 /* ShareSDKUI.bundle */,
+				F2F45D7F1D127A53004848F6 /* ShareSDKUI.framework */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		F2F45D801D127A53004848F6 /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D921D127A53004848F6 /* WeChatSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		F2F45D921D127A53004848F6 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D931D127A53004848F6 /* libWeChatSDK.a */,
+				F2F45D941D127A53004848F6 /* README.txt */,
+				F2F45D951D127A53004848F6 /* WechatAuthSDK.h */,
+				F2F45D961D127A53004848F6 /* WXApi.h */,
+				F2F45D971D127A53004848F6 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		F2F45D981D127A53004848F6 /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				F2F45D991D127A53004848F6 /* MOBFoundation.framework */,
+				F2F45D9A1D127A53004848F6 /* ShareSDK.bundle */,
+				F2F45D9B1D127A53004848F6 /* ShareSDKConnector.framework */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F45D1E1D123B3A004848F6 /* ShareSDk_WX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F45D361D123B3A004848F6 /* Build configuration list for PBXNativeTarget "ShareSDk_WX" */;
+			buildPhases = (
+				F2F45D1B1D123B3A004848F6 /* Sources */,
+				F2F45D1C1D123B3A004848F6 /* Frameworks */,
+				F2F45D1D1D123B3A004848F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareSDk_WX;
+			productName = ShareSDk_WX;
+			productReference = F2F45D1F1D123B3A004848F6 /* ShareSDk_WX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F45D171D123B3A004848F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李林";
+				TargetAttributes = {
+					F2F45D1E1D123B3A004848F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F2F45D1A1D123B3A004848F6 /* Build configuration list for PBXProject "ShareSDk_WX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F45D161D123B3A004848F6;
+			productRefGroup = F2F45D201D123B3A004848F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F45D1E1D123B3A004848F6 /* ShareSDk_WX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F45D1D1D123B3A004848F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F45D9E1D127A53004848F6 /* ShareSDKUI.bundle in Resources */,
+				F2F45D321D123B3A004848F6 /* LaunchScreen.storyboard in Resources */,
+				F2F45D2F1D123B3A004848F6 /* Assets.xcassets in Resources */,
+				F2F45DA71D127A53004848F6 /* ShareSDK.bundle in Resources */,
+				F2F45D2D1D123B3A004848F6 /* Main.storyboard in Resources */,
+				F2F45DA51D127A53004848F6 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F45D1B1D123B3A004848F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F45D2A1D123B3A004848F6 /* ViewController.m in Sources */,
+				F2F45D271D123B3A004848F6 /* AppDelegate.m in Sources */,
+				F2F45D241D123B3A004848F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2F45D2B1D123B3A004848F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F45D2C1D123B3A004848F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2F45D301D123B3A004848F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2F45D311D123B3A004848F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2F45D341D123B3A004848F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2F45D351D123B3A004848F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F45D371D123B3A004848F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/QQSDK",
+				);
+				INFOPLIST_FILE = ShareSDk_WX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epoint.wssb.sucheng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2F45D381D123B3A004848F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/QQSDK",
+				);
+				INFOPLIST_FILE = ShareSDk_WX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epoint.wssb.sucheng;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F45D1A1D123B3A004848F6 /* Build configuration list for PBXProject "ShareSDk_WX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F45D341D123B3A004848F6 /* Debug */,
+				F2F45D351D123B3A004848F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F45D361D123B3A004848F6 /* Build configuration list for PBXNativeTarget "ShareSDk_WX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F45D371D123B3A004848F6 /* Debug */,
+				F2F45D381D123B3A004848F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F45D171D123B3A004848F6 /* Project object */;
+}
